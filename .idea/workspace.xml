@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94e52c6d-011d-4200-9278-72446cefb479" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/BossCombatControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/ColorsControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/GameInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/HeroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/HeroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/MapControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/MenuControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/MonsterCombatControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/PlayerControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/ShopControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control/UserInputControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/DungeonRunApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Character/Barbarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Character/CodeMonkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Character/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Potions/HealthPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassOne/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassOne/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassThree/AtlanteanSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassThree/PredatorDrone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassTwo/Spot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponClassTwo/TwoHandSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Items/Weapon/WeaponParentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Map/ICA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Map/KjellCO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Map/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Map/Sats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Map/TeacherLounge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Bosses/IcaBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Bosses/KjellCOBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Bosses/SatsBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Bosses/TechWizOfDoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/EnemyParentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Monster/Grunt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Monster/Minion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Monster/Monster/Nerd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Repository/HeroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/oskarjohansson/dungeonrun/DungeonRunApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" environment="dev" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YTtSUFcPFBgy8k7zCJ1dtu7ZrJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/oskarjohansson/Projects/Java2023/DatabasHantering/DungeonRun/DungeonRun/src/main/java/com/oskarjohansson/dungeonrun",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "rest.client.default.execution.environment": "dev",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "spring.configuration.checksum": "b674045c5aa2780b8d68cdc44effa4a8",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Model/Character" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/oskarjohansson/dungeonrun/Control" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oskarjohansson.dungeonrun.Model.Character" />
+      <recent name="com.oskarjohansson.dungeonrun.Repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DungeonRunApplication">
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="DungeonRunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DungeonRun" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oskarjohansson.dungeonrun.DungeonRunApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="HTTP Request.generated-requests | #6" />
+        <item itemvalue="HTTP Request.generated-requests | #7" />
+        <item itemvalue="HTTP Request.generated-requests | #8" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94e52c6d-011d-4200-9278-72446cefb479" name="Changes" comment="" />
+      <created>1700561396457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700561396457</updated>
+      <workItem from="1700561397483" duration="20510000" />
+      <workItem from="1700653387286" duration="17096000" />
+      <workItem from="1700734527836" duration="614000" />
+      <workItem from="1700832438563" duration="26432000" />
+      <workItem from="1701329065406" duration="2000" />
+      <workItem from="1701329073526" duration="2000" />
+      <workItem from="1701329108899" duration="2000" />
+      <workItem from="1701329119109" duration="850000" />
+      <workItem from="1701337722052" duration="2169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
