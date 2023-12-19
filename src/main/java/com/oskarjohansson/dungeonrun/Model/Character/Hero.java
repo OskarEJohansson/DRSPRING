@@ -3,7 +3,6 @@ package com.oskarjohansson.dungeonrun.Model.Character;
 import com.oskarjohansson.dungeonrun.Model.Items.Potions.HealthPotion;
 import com.oskarjohansson.dungeonrun.Model.Items.Weapon.WeaponParentModel;
 import jakarta.persistence.*;
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +16,7 @@ public class Hero {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     private WeaponParentModel weapon;
     private String heroClass;
     private int strength;
@@ -34,7 +33,7 @@ public class Hero {
     private int killList;
     private int deathCount;
     private boolean codeBreaker;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     private List<HealthPotion> potionStash;
 
 
@@ -44,7 +43,7 @@ public class Hero {
         this.turningPoints = 1;
         this.turningPointsBase = 1;
         this.experiencePoints = 0;
-        this.gold = 0;
+        this.gold = 100;
         this.goldBase = 0;
         this.level = 1;
         this.killList = 0;
@@ -270,6 +269,7 @@ public class Hero {
         this.codeBreaker = codeBreaker;
     }
 
+    @Column(name = "potionStash")
     public List<HealthPotion> getPotionStash() {
         return potionStash;
     }
@@ -289,5 +289,7 @@ public class Hero {
     public void setPotionStash(List<HealthPotion> potionStash) {
         this.potionStash = potionStash;
     }
+
+
 }
 

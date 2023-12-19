@@ -26,7 +26,6 @@ public class HeroService{
         this.heroRepository = heroRepository;
     }
 
-
     public Hero saveHero(Hero hero) {
         return heroRepository.save(hero);
     }
@@ -39,10 +38,6 @@ public class HeroService{
             return null;
         }
     }
-
-//    public Hero updateHero(Hero hero){
-//
-//    }
 
     public void deleteHero(Long heroid){
         System.out.println(heroid);
